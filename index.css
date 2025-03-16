@@ -4,7 +4,7 @@ body{
 
 .header{
 display: flex;
-flex-direction: column;
+flex-direction: column; /*this is do the header would be stacked*/
 align-items: center;
 font-weight: bold;
 font-size: 32px;
@@ -35,12 +35,12 @@ font-size: 24px;
 }
 
 #orchid{
-    transform: scaleX(-1);
+    transform: scaleX(-1); /* this is to mirror the image*/
 }
 
 div{
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    padding: 20px;
+    padding: 20px; /*this is to space the images*/
 }
